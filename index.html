@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sardur Technologies</title>
-<meta name="description" content="Saha Bizim ve diğer mobil oyunların geliştiricisi Sardur Technologies.">
+<meta name="description" content="Miras FC, Saha Bizim ve diğer mobil oyunların geliştiricisi Sardur Technologies.">
 <link rel="icon" href="ikon.png">
 <style>
 :root{--zemin:#0C1424;--kart:#16233B;--cizgi:#2B4166;--yazi:#F1F5F9;--soluk:#8DA2C0;--turuncu:#F59E0B}
@@ -15,8 +15,9 @@ header{display:flex;align-items:center;gap:14px;margin-bottom:28px}
 header .logo{width:44px;height:44px;border-radius:12px;background:var(--turuncu);display:grid;place-items:center;font-weight:900;color:#1A1205;font-size:20px}
 h1{font-size:22px;margin:0}
 .alt{color:var(--soluk);font-size:14px;margin:2px 0 0}
-.oyun{display:flex;gap:16px;align-items:center;background:var(--kart);border:1px solid var(--cizgi);border-radius:20px;padding:18px}
-.oyun img{width:84px;height:84px;border-radius:20px;flex:none}
+.oyun{display:flex;gap:16px;align-items:center;background:var(--kart);border:1px solid var(--cizgi);border-radius:20px;padding:18px;margin-bottom:14px}
+.oyun img,.oyun .tile{width:84px;height:84px;border-radius:20px;flex:none}
+.oyun .tile{display:grid;place-items:center;font-size:40px;background:linear-gradient(140deg,#16d184,#0b6b43);box-shadow:inset 0 0 0 2px rgba(255,255,255,.12)}
 .oyun h2{margin:0 0 4px;font-size:20px}
 .oyun p{margin:0;color:var(--soluk);font-size:14.5px}
 .linkler{margin-top:22px;display:flex;flex-wrap:wrap;gap:10px}
@@ -34,6 +35,14 @@ footer{margin-top:40px;color:var(--soluk);font-size:12.5px}
       <p class="alt">Mobil oyunlar · Mobile games</p>
     </div>
   </header>
+
+  <section class="oyun">
+    <div class="tile">⚽</div>
+    <div>
+      <h2>Miras FC: A Football Life</h2>
+      <p>Futbolcu olarak doğ, kariyerini kur ve ailenin mirasını nesiller boyu büyüt. Be born a footballer, build your career and grow your family's legacy across generations.</p>
+    </div>
+  </section>
 
   <section class="oyun">
     <img src="ikon.png" alt="Saha Bizim simgesi">
